@@ -70,6 +70,24 @@
                 {
                     "markdown": "- Fixes small glitches",
                     "class": "DepictionMarkdownView"
+                },
+                {
+                    "text": "Oct 23, 202",
+                    "class": "DepictionTableTextView",
+                    "title": "Version 0.0.2"
+                },
+                {
+                    "markdown": "- Check module height to avoid applying changes to the landscape volume bar",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "text": "Oct 19, 2024",
+                    "class": "DepictionTableTextView",
+                    "title": "Version 0.0.1"
+                },
+                {
+                    "markdown": "- Initial release",
+                    "class": "DepictionMarkdownView"
                 }
             ],
             "class": "DepictionStackView",
