@@ -1,0 +1,95 @@
+  {
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/header.png",
+    "class": "DepictionTabView",
+    "tintColor": "#F77686",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "CC18",
+                    "useBoldText": true
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Round CC modules replication, like in iOS 18"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/screenshot1.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/screenshot2.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/screenshot3.jpg"
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "dvntm",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
+        },
+        {
+            "views": [
+                {
+                    "text": "Aug 13, 2025",
+                    "class": "DepictionTableTextView",
+                    "title": "Version 0.0.3"
+                },
+                {
+                    "markdown": "- Fixes small glitches",
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Changelog"
+        },
+        {
+            "views": [
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "My Patreon",
+                    "action": "https://patreon.com/dayanch96"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Buy me a coffee",
+                    "action": "https://buymeacoffee.com/dayanch96"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Support"
+        }
+    ]
+}

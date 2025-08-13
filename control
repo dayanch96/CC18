@@ -1,9 +1,11 @@
 Package: com.dvntm.cc18
 Name: CC18
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: Round CC modules replication, like in iOS 18
 Maintainer: dvntm
 Author: dvntm
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Icon: https://raw.githubusercontent.com/dayanch96/CC18/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/CC18/main/Sileo/depiction.json
